@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Your local Notary Public located in the Creston Valley. Wills, Estates, Property Work, and more!">
+    <meta name="author" content="Joel P. Mann, theJoelMann.com">
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="favicon/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="favicon/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="favicon/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="favicon/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="favicon/apple-touch-icon-60x60.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="favicon/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="favicon/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="favicon/apple-touch-icon-152x152.png" />
+    <link rel="icon" type="image/png" href="favicon/favicon-196x196.png" sizes="196x196" />
+    <link rel="icon" type="image/png" href="favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/png" href="favicon/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="favicon/favicon-16x16.png" sizes="16x16" />
+    <link rel="icon" type="image/png" href="favicon/favicon-128.png" sizes="128x128" />
+    <meta name="application-name" content="&nbsp;" />
+    <meta name="msapplication-TileColor" content="#FFFFFF" />
+    <meta name="msapplication-TileImage" content="favicon/mstile-144x144.png" />
+    <meta name="msapplication-square70x70logo" content="favicon/mstile-70x70.png" />
+    <meta name="msapplication-square150x150logo" content="favicon/mstile-150x150.png" />
+    <meta name="msapplication-wide310x150logo" content="favicon/mstile-310x150.png" />
+    <meta name="msapplication-square310x310logo" content="favicon/mstile-310x310.png" />
+
+
+
+    <title>Notary Creston</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/business-frontpage.css" rel="stylesheet">
+
+</head>
+
+<body onload="changeOrientation()" onresize="changeOrientation()">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark navbarCustom fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html" style="font-family: 'Times New Roman', Times, serif;">
+                <img id="logo" src="Assets/NewLogo2.png" height="40px"> Mann & Vander Heide
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.html">Services</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Contact
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header with Background Image -->
+    <header class="contact-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="display-4 text-white mt-5 shadowed">
+                        <br> Contact Us
+                    </h1>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- content - form, map, hours, location-->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <br>
+                <h2>Contact</h2>
+                <p>
+                    Have a question? Call us at
+                    <strong>250-428-7194</strong>, send us a message at
+                    <strong>info@notarycreston.com</strong>, or fill in the form below, and we will get in touch!
+                </p>
+
+                <!-- //TODO: Implement server-side script to allow post-to-db then email process -->
+                <form action="#">
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <label for="firstName">First Name</label>
+                                <input type="text" class="form-control-custom" placeholder="First name">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="lastName">Last Name</label>
+                                <input type="text" class="form-control-custom" placeholder="Last name">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Email address</label>
+                        <input type="email" class="form-control-custom" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea class="form-control-custom" name="message" id="message" placeholder="Enter your message..." rows="5"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary-custom disabled">Submit (not available)</button>
+                </form>
+                <br>
+            </div>
+            <div class="col-md-6">
+                <br>
+                <h2>Address</h2>
+                <br>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2612.4759526779576!2d-116.51261410342521!3d49.0965979608799!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x536362e027f3aa0d%3A0xbcb4fbb9daae8608!2sLorne+D.+Mann!5e0!3m2!1sen!2sca!4v1523241896151"
+                    width="600" height="450" class="maps-img" frameborder="0" style="border:0" allowfullscreen></iframe>
+                <br>
+                <div class="row">
+                    <div class="col-sm-6" style="text-align: center">
+                        <address>
+                            <strong>10th Avenue Business Centre</strong>
+                            <br> 119 10th Avenue North
+                            <br>Creston, BC V0B 1G0
+                            <br>
+                        </address>
+                    </div>
+                    <div class="col-sm-6" style="text-align: center">
+                        <address>
+                            <strong>Mailing Address:</strong>
+                            <br> PO Box 427
+                            <br>Creston, BC V0B 1G0
+                            <br>
+                        </address>
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="col-sm-6" style="text-align: center">
+                        <strong>Hours</strong>
+                        <p>Monday to Friday
+                            <br> 9:00AM to 4:30PM
+                            <br> Closed 12:00PM to 1:00PM
+                        </p>
+                    </div>
+                    <div class="col-sm-6" style="text-align: center">
+                        <strong>Phone:</strong>
+                        <p>
+                            Office: 250-428-7194
+                            <br> Toll-free: 1-800-649-7194
+                            <br> Fax: 250-428-5566
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer class="py-5 navbarCustom">
+        <div class="container">
+            <p class="m-0 text-center text-white">Copyright &copy; Lorne D. Mann and Lisa Berry Vander Heide 2018</p>
+        </div>
+        <!-- /.container -->
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Navbar script -->
+    <script>
+        let brand = document.getElementById("logo");
+
+        function changeOrientation() {
+            let width = window.innerWidth;
+            if (width < 576) {
+                brand.src = "Assets/NewLogo3.png";
+            } else if (width >= 576) {
+                brand.src = "Assets/NewLogo2.png";
+            }
+        }
+    </script>
+
+</body>
+
+<!-- Website Creator: Joel Mann, https://TheJoelMann.com. Freelance international contractor, born and raised in the Kootenays -->
+
+</html>

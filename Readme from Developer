@@ -1,0 +1,35 @@
+This webpage was made by Joel Mann. Contact 250-428-1787 or Jmann@ualberta.ca for questions.
+
+Initial template offered by Start Bootrap. https://startbootstrap.com/
+
+
+Items that need to be done before hosting:
+
+1. "Contact Us" form needs to be hooked up.
+2. Form text verification needs to be setup, either client side with JS or (preferably) with server-side sanitized inputs. 
+        If assistance is needed, please contact Joel. I didn't put it in because I am not sure what you have set up for it server side.
+3. Submit button needs class="disabled" to be removed (just erase the disabled, not any other class)
+
+
+Alert Box on Index.html:
+
+There is a commented out alert box (search alert in file) that will display an alert box after the header image that can be used
+to add notifications to the page, such as "Closed for Long Weekend" or "Lorne out of town until..."
+
+To use, un-comment the section, and add text to content area.
+
+
+
+Extra Images: 
+
+There are some additional images in the Assets folder if there needs to be temporary changes to any particular header images.
+
+
+Image files:
+
+All header images are connected through the CSS page, and not in the HTML files. All other images are embeded as img in their respective HTML pages. The images are larger than they need to be, and can be compressed if load times are too long. Image files are all located in the Assets folder.
+
+
+JavaScript usage:
+
+Only vanilla JS is used for effects, while Bootstrap uses a minified jQuery library. JS was left embeded in HTML files due to minimal nature used. Script is activated through the "onload" tag attribute.
